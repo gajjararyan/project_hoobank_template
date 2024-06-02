@@ -1,5 +1,20 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import {
+  Billing,
+  Business,
+  CardDeal,
+  Clients,
+  CTA,
+  Footer,
+  Navbar,
+  Stats,
+  Testimonials,
+  Hero,
+} from "./components";
+import { Route } from "react-router-dom";
+import { Routes } from "react-router-dom";
+import About from "./components/core/AboutUs/About";
+import HomePage from "./pages/HomePage";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -9,25 +24,17 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer />
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/home" element={<HomePage />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
   </div>
 );
+
+{
+  /* <Routes>
+        </Routes> */
+}
 
 export default App;
