@@ -1,5 +1,5 @@
 import styles from "../style";
-import { logo } from "../assets";
+import logofinal from "../assets/logofinal.png";
 import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
@@ -7,9 +7,9 @@ const Footer = () => (
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <img
-          src={logo}
+          src={logofinal}
           alt="Stark Technologies Logo"
-          className="w-[266px] h-[72.14px] object-contain"
+          className="w-[266px] h-[92px] object-contain"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[347px]`}>
         Empowering People and Businesses to Thrive in the IT World 
