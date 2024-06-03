@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      boxShadow: {
+        custom: "0px 0px 70px 1px rgba(178, 174, 174, 1)",
+      },
       colors: {
         primary: "#00040f",
         secondary: "#00f6ff",
