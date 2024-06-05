@@ -2,12 +2,18 @@ import styles from "../style";
 import { discount, robot } from "../assets";
 import roboai from "../assets/roboai.png";
 import GetStarted from "./GetStarted";
+import Start from "./Start";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
-      <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
-      {/* <div className="ss:flex hidden md:mr-4 mr-0">
+    <section
+      id="home"
+      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+    >
+      <div
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+      >
+        {/* <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div> */}
 
@@ -19,21 +25,25 @@ const Hero = () => {
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
-    
         </div>
 
         {/* <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
          Deliver Different
         </h1> */}
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Empowering People and Businesses to Thrive in the IT World
-        Pioneering Excellence in IT Consulting & Services.
-
+          Empowering People and Businesses to Thrive in the IT World Pioneering
+          Excellence in IT Consulting & Services.
         </p>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={roboai} alt="Robo-ai" className="w-[100%] h-[100%] relative z-[4]" />
+      <div
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+      >
+        <img
+          src={roboai}
+          alt="Robo-ai"
+          className="w-[100%] h-[100%] relative z-[4]"
+        />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
@@ -45,6 +55,8 @@ const Hero = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
       </div>
+
+      <Start />
     </section>
   );
 };
