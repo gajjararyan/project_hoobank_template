@@ -1,9 +1,9 @@
 import React from "react";
 
 const Stats = [
-  { count: "3800+", label: "User Active" },
-  { count: "230+", label: "Trusted By Companies" },
-  { count: "$930M+", label: "Transactions" },
+  { count: "10,000+", label: "Happy Clients" },
+  { count: "500+", label: "Trusted By Leading Companies Partnered" },
+  { count: "5,000++", label: "IT Professionals Empowered" },
   { count: "20+", label: "Countries" },
 ];
 const StatsComponent = () => {
