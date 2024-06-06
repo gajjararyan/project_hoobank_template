@@ -27,23 +27,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Custom Solutions",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Partner for Custom Software Solution Excellence.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Tailored, Robust Solutions Built for Your Success.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Support & Maintenance",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Ongoing Maintenance for Lasting Performance.",
   },
 ];
 
