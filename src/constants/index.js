@@ -27,23 +27,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Custom Solutions",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Partner for Custom Software Solution Excellence.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Tailored, Robust Solutions Built for Your Success.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Support & Maintenance",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Ongoing Maintenance for Lasting Performance.",
   },
 ];
 
@@ -51,7 +51,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Stark Technologies delivers innovation and expertise that exceeded our expectations. Their transformative solutions have been instrumental in our business growth.",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -59,7 +59,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Stark Technologies' support was invaluable in securing my dream job as an international student in the US. Highly recommended for all IT career starters.",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -67,7 +67,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Stark Technologies consistently delivers exceptional software solutions tailored to our needs. Their professionalism and commitment make them our trusted partner in software development.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
