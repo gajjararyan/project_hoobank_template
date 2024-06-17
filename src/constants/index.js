@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -18,7 +33,7 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "clients",
+    id: "contact",
     title: "Contact Us",
   },
 ];
@@ -28,22 +43,19 @@ export const features = [
     id: "feature-1",
     icon: star,
     title: "Custom Solutions",
-    content:
-      "Partner for Custom Software Solution Excellence.",
+    content: "Partner for Custom Software Solution Excellence.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
-    content:
-      "Tailored, Robust Solutions Built for Your Success.",
+    content: "Tailored, Robust Solutions Built for Your Success.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Support & Maintenance",
-    content:
-      "Ongoing Maintenance for Lasting Performance.",
+    content: "Ongoing Maintenance for Lasting Performance.",
   },
 ];
 

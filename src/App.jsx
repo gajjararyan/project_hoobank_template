@@ -15,6 +15,7 @@ import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import About from "./components/core/AboutUs/About";
 import HomePage from "./pages/HomePage";
+import Contact from "./components/core/ContactUs/Contact";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -28,6 +29,7 @@ const App = () => (
       <Route path="/" element={<HomePage />} />
       <Route path="/home" element={<HomePage />} />
       <Route path="/about" element={<About />} />
+      <Route path="/contact" element={<Contact />} />
     </Routes>
   </div>
 );
