@@ -32,9 +32,4 @@ const App = () => (
   </div>
 );
 
-{
-  /* <Routes>
-        </Routes> */
-}
-
 export default App;

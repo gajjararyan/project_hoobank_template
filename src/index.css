@@ -133,6 +133,7 @@ body::-webkit-scrollbar {
   filter: blur(750px);
 }
 
+<<<<<<< HEAD
 
 /* Star CSS */
 /* 
@@ -310,4 +311,17 @@ body {
   50% {
     opacity: 0.6;
   }
+=======
+/* Hover for image */
+
+.hover-image {
+  width: 100%; 
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+.hover-image:hover {
+  transform: scale(1.1); 
+  opacity: 0.8; 
+  cursor: pointer;
+>>>>>>> 5e7faa58f554f55dc451d1813ec018a27f61fefd
 }
