@@ -136,12 +136,12 @@ body::-webkit-scrollbar {
 /* Hover for image */
 
 .hover-image {
-  width: 100%; 
-  transition: transform 0.3s ease, opacity 0.3s ease; 
+  width: 100%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .hover-image:hover {
-  transform: scale(1.1); 
-  opacity: 0.8; 
+  transform: scale(1.1);
+  opacity: 0.8;
   cursor: pointer;
 }

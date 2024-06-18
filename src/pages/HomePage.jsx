@@ -12,6 +12,7 @@ import {
   Hero,
 } from "../components";
 import styles from "../style";
+import Start from "../components/Start";
 
 const HomePage = () => {
   return (
