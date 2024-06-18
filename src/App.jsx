@@ -16,6 +16,7 @@ import { Routes } from "react-router-dom";
 import About from "./components/core/AboutUs/About";
 import HomePage from "./pages/HomePage";
 import Contact from "./components/core/ContactUs/Contact";
+import OurServices from "./components/core/OtherSpecialization/OurServices";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -30,6 +31,7 @@ const App = () => (
       <Route path="/home" element={<HomePage />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/our-services" element={<OurServices />} />
     </Routes>
   </div>
 );

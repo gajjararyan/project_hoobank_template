@@ -25,7 +25,7 @@ export const navLinks = [
     title: "Software Solutions",
   },
   {
-    id: "other",
+    id: "our-services",
     title: "Other Specializations",
   },
   {
