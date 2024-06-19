@@ -112,7 +112,7 @@ const ContactCard = () => {
       <div className="p-8 flex-1">
         <h2 className="text-3xl font-bold mb-4">Let's connect 🤝</h2>
         <p className="text-lg mb-8"> 
-          Let's align our constellations! Reach out and let the magic of collaboration illuminate our skies.
+        Let's achieve success together your business with Stark Technologies.
         </p>
         <form>
           <input
@@ -150,9 +150,9 @@ const ContactCard = () => {
       <div className="flex-1 bg-cover bg-center bg-[url('../../../assets/aiboy.jpg')]">
         <div className="p-8 flex flex-col justify-end h-full bg-[#141721] bg-opacity-50">
           <div className="italic text-sm text-gray-500 text-right mb-4">
-            “Two lunar months revealed Earth's fragile beauty against vast silence, transforming my view of our place in the universe.”
+            “Unlocking growth with Stark Technologies illuminated our path to success, transforming our business with innovative IT solutions.”
             <br />
-            <strong>Irinel Traista</strong>
+            <strong>Stark Technologies</strong>
           </div>
         </div>
       </div>
