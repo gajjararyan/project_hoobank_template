@@ -108,40 +108,42 @@ import React from 'react';
 
 const ContactCard = () => {
   return (
-    <div className="flex bg-[#141721] rounded-lg overflow-hidden shadow-md text-white">
+    <div className="flex flex-col lg:flex-row bg-[#141721] rounded-lg overflow-hidden shadow-md text-white">
       <div className="p-8 flex-1">
         <h2 className="text-3xl font-bold mb-4">Let's connect 🤝</h2>
         <p className="text-lg mb-8"> 
-        Let's achieve success together your business with Stark Technologies.
+          Let's achieve success together with Stark Technologies.
         </p>
-        <form>
-          <input
-            type="text"
-            placeholder="First Name"
-            className="w-50 p-3 rounded border border-gray-700 mb-4 mr-2 bg-[#22242e]"
-          />
-          <input
-            type="text"
-            placeholder="Last Name"
-            className="w-60 p-3 rounded border border-gray-700 mb-4 bg-[#22242e]"
-          />
+        <form className="space-y-4">
+          <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-2">
+            <input
+              type="text"
+              placeholder="First Name"
+              className="w-full sm:w-1/2 p-3 rounded border border-gray-700 bg-[#22242e]"
+            />
+            <input
+              type="text"
+              placeholder="Last Name"
+              className="w-full sm:w-1/2 p-3 rounded border border-gray-700 bg-[#22242e]"
+            />
+          </div>
           <input
             type="email"
             placeholder="Email"
-            className="w-9/12 p-3 rounded border border-gray-700 mb-4 bg-[#22242e]"
+            className="w-full p-3 rounded border border-gray-700 bg-[#22242e]"
           />
           <input
             type="tel"
             placeholder="Phone Number"
-            className="w-9/12 p-3 rounded border border-gray-700 mb-4 bg-[#22242e]"
+            className="w-full p-3 rounded border border-gray-700 bg-[#22242e]"
           />
           <textarea
             placeholder="Message"
-            className="w-full p-3 rounded border border-gray-700 mb-4 bg-[#22242e]"
+            className="w-full p-3 rounded border border-gray-700 bg-[#22242e]"
           />
           <button
             type="submit"
-            className="bg-purple-700 text-white py-3 px-6 rounded-full border-2 border-transparent hover:bg-purple-900 transition duration-300"
+            className="bg-purple-700 text-white py-3 px-6 rounded-full border-2 border-transparent hover:bg-purple-900 transition duration-300 w-full sm:w-auto"
           >
             Send to Stark 🚀
           </button>
