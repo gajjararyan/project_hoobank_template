@@ -139,7 +139,7 @@ const ContactCard = () => {
           />
           <textarea
             placeholder="Message"
-            className="w-full p-3 rounded border border-gray-700 bg-[#22242e]"
+            className="w-full p-3 rounded border border-gray-700 bg-[#22242e] h-17"
           />
           <button
             type="submit"
