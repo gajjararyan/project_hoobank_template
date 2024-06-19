@@ -19,7 +19,7 @@ const CardDeal = () => (
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={image5} alt="It Career" className="w-[87%] h-[87%] hover-image" />
+      <img src={image5} alt="It Career" className="w-[87%] h-[87%] hover-image rounded-3xl" />
     </div>
   </section>
 );
