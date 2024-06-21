@@ -104,14 +104,15 @@
 // }
 
 // export default ContactCard;
-import React from 'react';
+import React from "react";
+import aiboy from "../../../assets/roboai.png";
 
 const ContactCard = () => {
   return (
     <div className="flex flex-col lg:flex-row bg-[#141721] rounded-lg overflow-hidden shadow-md text-white">
       <div className="p-8 flex-1">
         <h2 className="text-3xl font-bold mb-4">Let's connect 🤝</h2>
-        <p className="text-lg mb-8"> 
+        <p className="text-lg mb-8">
           Let's achieve success together with Stark Technologies.
         </p>
         <form className="space-y-4">
@@ -150,9 +151,17 @@ const ContactCard = () => {
         </form>
       </div>
       <div className="flex-1 bg-cover bg-center bg-[url('../../../assets/aiboy.jpg')]">
-        <div className="p-8 flex flex-col justify-end h-full bg-[#141721] bg-opacity-50">
+        <div className="p-8 flex flex-col justify-end items-center h-full bg-[#141721] bg-opacity-50">
+          <div className="">
+            <img
+              src={aiboy}
+              className="w-[500px] h-[390px] object-contain"
+              alt="img"
+            ></img>
+          </div>
           <div className="italic text-sm text-gray-500 text-right mb-4">
-            “Unlocking growth with Stark Technologies illuminated our path to success, transforming our business with innovative IT solutions.”
+            “Unlocking growth with Stark Technologies illuminated our path to
+            success, transforming our business with innovative IT solutions.”
             <br />
             <strong>Stark Technologies</strong>
           </div>
@@ -160,6 +169,6 @@ const ContactCard = () => {
       </div>
     </div>
   );
-}
+};
 
 export default ContactCard;
