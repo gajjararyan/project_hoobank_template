@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React from 'react';
 // import styled from 'styled-components';
 
@@ -106,6 +107,9 @@
 // export default ContactCard;
 import React from "react";
 import aiboy from "../../../assets/roboai.png";
+=======
+import React from 'react';
+>>>>>>> d9efcd6559d5121fef1d9e9b26903c5f0e75bdd7
 
 const ContactCard = () => {
   return (
