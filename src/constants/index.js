@@ -81,7 +81,7 @@ export const feedback = [
     content:
       "Stark Technologies consistently delivers exceptional software solutions tailored to our needs. Their professionalism and commitment make them our trusted partner in software development.",
     name: "Kenn Gallagher",
-    title: "CEo",
+    title: "CEO",
     img: people03,
   },
 ];
