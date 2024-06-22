@@ -17,6 +17,7 @@ import About from "./components/core/AboutUs/About";
 import HomePage from "./pages/HomePage";
 import Contact from "./components/core/ContactUs/Contact";
 import OurServices from "./components/core/OtherSpecialization/OurServices";
+import Software from "./components/core/SoftwareSolutions/Software";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -32,6 +33,7 @@ const App = () => (
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/our-services" element={<OurServices />} />
+      <Route path="/software-solutions" element={<Software />} />
     </Routes>
   </div>
 );

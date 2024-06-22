@@ -2,7 +2,6 @@ import React from "react";
 import ContactCard from "./contactcard";
 import Footer from "../../Footer";
 import styles from "../../../style";
-import aiboy from "../../../assets/aiboy.jpg";
 
 const Contact = () => {
   return (

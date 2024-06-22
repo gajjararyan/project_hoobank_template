@@ -49,7 +49,7 @@ const ContactCard = () => {
           <div className="">
             <img
               src={aiboy}
-              className="w-[500px] h-[390px] object-contain "
+              className=" h-[370px] object-contain rounded-2xl"
               alt="img"
             ></img>
           </div>
