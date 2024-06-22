@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import aiboy from "../../../assets/aiboy.jpg";
 
 const ContactCard = () => {
   return (
@@ -43,7 +44,15 @@ const ContactCard = () => {
           </button>
         </form>
       </div>
-      <div className="flex-1 bg-cover bg-center bg-[url('../../../assets/aiboy.jpg')]">
+      <div className="flex-1 bg-cover bg-center">
+      <div className="p-8 flex flex-col justify-end items-center h-full bg-[#141721] bg-opacity-50">
+          <div className="">
+            <img
+              src={aiboy}
+              className="w-[500px] h-[390px] object-contain "
+              alt="img"
+            ></img>
+          </div>
         <div className="p-8 flex flex-col justify-end h-full bg-[#141721] bg-opacity-50">
           <div className="italic text-sm text-gray-500 text-right mb-4">
             “Unlocking growth with Stark Technologies illuminated our path to success, transforming our business with innovative IT solutions.”
@@ -52,6 +61,7 @@ const ContactCard = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
