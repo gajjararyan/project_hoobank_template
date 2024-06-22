@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div>
       {/* Section 1 */}
-      <section className=" bg-slate-800 ">
+      <section className=" bg-[#22242e] ">
         <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
           <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
             Empowering Innovation, Delivering a Excellent Service, Creating a
@@ -117,7 +117,7 @@ const About = () => {
 
       {/* Stats */}
       <div
-        className={` bg-slate-800  flex justify-center items-center  ${styles.paddingX} ${styles.flexCenter}`}
+        className={` bg-[#22242e]  flex justify-center items-center  ${styles.paddingX} ${styles.flexCenter}`}
       >
         <div className={`${styles.boxWidth}`}>
           <Stats />
