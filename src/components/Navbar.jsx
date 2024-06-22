@@ -2,6 +2,7 @@ import { useState } from "react";
 import logofinal from "../assets/logofinal.png";
 import { close, menu, logo } from "../assets";
 import { navLinks } from "../constants";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -26,7 +27,7 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <NavLink to={`/${nav.id}`}>{nav.title}</NavLink>
           </li>
         ))}
       </ul>
@@ -53,7 +54,8 @@ const Navbar = () => {
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
-                <a href={`${nav.id}`}>{nav.title}</a>
+                <NavLink to={`/${nav.id}`}>{nav.title}</NavLink>
+                {/* <a href={`${nav.id}`}>{nav.title}</a> */}
               </li>
             ))}
           </ul>
