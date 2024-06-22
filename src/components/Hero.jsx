@@ -2,7 +2,6 @@ import styles from "../style";
 import { discount, robot } from "../assets";
 import roboai from "../assets/roboai.png";
 import GetStarted from "./GetStarted";
-import Start from "./Start";
 
 const Hero = () => {
   return (
@@ -56,7 +55,6 @@ const Hero = () => {
         <GetStarted />
       </div>
 
-      <Start />
     </section>
   );
 };
