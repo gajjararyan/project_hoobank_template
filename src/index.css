@@ -136,7 +136,7 @@ body::-webkit-scrollbar {
 /* Hover for image */
 
 .hover-image {
-  width: 100%;
+  width: 97%;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
