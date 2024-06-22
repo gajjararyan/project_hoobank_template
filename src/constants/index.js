@@ -65,7 +65,7 @@ export const feedback = [
     content:
       "Stark Technologies delivers innovation and expertise that exceeded our expectations. Their transformative solutions have been instrumental in our business growth.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Co-Founder",
     img: people01,
   },
   {
@@ -81,7 +81,7 @@ export const feedback = [
     content:
       "Stark Technologies consistently delivers exceptional software solutions tailored to our needs. Their professionalism and commitment make them our trusted partner in software development.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "CEo",
     img: people03,
   },
 ];
