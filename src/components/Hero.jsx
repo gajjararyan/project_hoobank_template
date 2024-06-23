@@ -17,7 +17,7 @@ const Hero = () => {
           </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[57px] text-[47px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins pt-12 lg:pt-0 font-semibold ss:text-[57px] text-[47px] text-white ss:leading-[100.8px] leading-[75px]">
             Think Different <br className="sm:block hidden" />{" "}
             <span className="text-gradient">To Deliver Different</span>{" "}
           </h1>
@@ -54,7 +54,6 @@ const Hero = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
       </div>
-
     </section>
   );
 };
