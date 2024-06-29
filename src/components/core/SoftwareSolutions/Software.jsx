@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 import Footer from "../../Footer";
 import styles from "../../../style";
 import cuteboy from "../../../assets/cute-boy-space-bg.png";
@@ -53,14 +54,20 @@ const Software = () => {
               </div>
             ))}
           </div>
-          <div className="text-center mt-8 flex items-center justify-center space-x-4 pt-12">
-            <img src={cuteboy} alt="CuteBoySpaceImage" className="ml-36 w-40 h-47 object-cover"/>
-            <a href="." className="inline-block shadow-md shadow-[#FF4191] bg-pink-400 text-white py-3 px-6  rounded-full mt-4 hover:bg-white hover:text-black transition duration-300">
+          <div className="text-center mt-8 flex items-center justify-center space-x-4 pt-12">            
+          <motion.img
+              src={cuteboy}
+              alt="CuteBoySpaceImage"
+              className="w-40 h-47 object-cover"
+              initial={{ y: 0 }}
+              animate={{ y: [-10, 10, -10] }}
+              transition={{ duration: 2, repeat: Infinity }}
+            />
+            <a href="." className="inline-block shadow-md shadow-[#FF4191] bg-pink-400 text-white py-3 px-6 rounded-full mt-4 hover:bg-white hover:text-black transition duration-300">
               Sign up for our newsletter today!
             </a>
           </div>
         </div>
-      
       </div>
 
     {/* Footer */}
