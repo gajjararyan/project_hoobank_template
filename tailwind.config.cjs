@@ -4,6 +4,10 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      animation: {
+        bounceShort: 'bounce 5s infinite',
+        pulseShort: 'pulse 1s infinite',
+      },
       boxShadow: {
         custom: "0px 0px 70px 1px rgba(178, 174, 174, 1)",
       },
@@ -16,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        playwrite: ['"Playwrite DE Grund"', 'sans-serif'],
       },
     },
     screens: {
