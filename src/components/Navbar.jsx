@@ -11,11 +11,13 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar relative ">
       <div>
+      <a href="https://project-stark-technologies.vercel.app/">
         <img
           src={logofinal}
           alt="Stark Technologies"
-          className="w-[265px] h-[102px] absolute z-10 "
+          className="w-[265px] h-[102px] absolute z-10 cursor-pointer "
         />
+        </a>
       </div>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1 absolute top-16 right-1 z-10">
