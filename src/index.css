@@ -147,3 +147,22 @@ body::-webkit-scrollbar {
   opacity: 0.8;
   cursor: pointer;
 }
+
+@keyframes ping-scale {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  70%, 100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+.animate-ping-short {
+  animation: ping-scale 7s linear infinite;
+}
+
+.animate-ping-scale {
+  transform-origin: center;
+}

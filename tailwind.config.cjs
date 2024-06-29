@@ -7,6 +7,7 @@ module.exports = {
       animation: {
         bounceShort: 'bounce 5s infinite',
         pulseShort: 'pulse 1s infinite',
+        'ping-fast': 'ping 1s linear infinite',
       },
       boxShadow: {
         custom: "0px 0px 70px 1px rgba(178, 174, 174, 1)",
